@@ -2,6 +2,14 @@
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 @import url("components/banners.css");
 
+:root {
+	--main-yellow: #ffcb74;
+	--main-moss: #b1b493;
+	--main-teal: #4f8a8b;
+	--main-black: #07031a;
+	--main-white: #faeee7;
+}
+
 .text-center {
   text-align: center;
 }
