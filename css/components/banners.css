@@ -11,9 +11,7 @@
 .banner-container {
   text-align: center;
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
-  color: var(--main-gray);
-
-  background-color: rgba(0, 0, 0, 0.3);
+  color: var(--main-black);
   margin-bottom: 15px;
   padding: 2em;
 }

@@ -1,27 +1,29 @@
 #navbar {
+  width: 100vw;
+  height: 18px;
+  background-color: var(--main-white);
   position: fixed;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 0px auto;
   width: 100vw;
+  top: 0px;
+  left: 0px;
+  padding: 8px;
 }
 
 #navbar ul li {
   list-style: none;
   float: left;
-  padding: 0 10px;
+  display: block;
+  text-decoration: none;
 }
 
 .nav-link {
-  position: fixed;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 0px auto;
-  width: 100vw;
-  display: block;
+  margin: 16px auto;
   text-decoration: none;
   text-align: center;
   color: var(--main-blue);
+  padding: 5px 8px;
+  font-family: inherit;
 }
