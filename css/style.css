@@ -3,11 +3,18 @@
 @import url("components/banners.css");
 
 :root {
-	--main-yellow: #ffcb74;
-	--main-moss: #b1b493;
-	--main-teal: #4f8a8b;
-	--main-black: #07031a;
-	--main-white: #faeee7;
+	--main-yellow: #ff9f1c;
+	--main-green: #2e441e;
+	--main-blue: #283670;
+	--main-black: #030504;
+  --main-white: #f6f4f5;
+  --main-red: #ad0914;
+}
+
+.body{
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--main-white);
+  color: var(--main-black);
 }
 
 .text-center {
@@ -18,6 +25,3 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
 }
 
-p {
-  font-family: 'Roboto', sans-serif;
-}
