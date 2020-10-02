@@ -1,0 +1,27 @@
+#navbar {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px auto;
+  width: 100vw;
+}
+
+#navbar ul li {
+  list-style: none;
+  float: left;
+  padding: 0 10px;
+}
+
+.nav-link {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px auto;
+  width: 100vw;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: var(--main-blue);
+}

@@ -9,6 +9,7 @@
 	--main-black: #030504;
   --main-white: #f6f4f5;
   --main-red: #ad0914;
+  --main-gray: #cacad2;
 }
 
 .body{
@@ -23,5 +24,6 @@
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
+  color: inherit;
 }
 
